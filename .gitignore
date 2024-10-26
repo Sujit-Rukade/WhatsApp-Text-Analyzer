@@ -1,0 +1,70 @@
+# Python-related files
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Streamlit-specific
+.streamlit/
+
+# Environment and package management
+env/
+venv/
+.venv/
+Pipfile
+Pipfile.lock
+poetry.lock
+*.pyenv
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# IDE specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Anaconda
+.conda/
+*.ipynb
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Chat files
+*.txt  # Ignore WhatsApp chat files if you don't want them versioned
+
+# Coverage reports
+htmlcov/
+*.coverage
+.coverage.*
+
+# Data files
+*.csv
+*.db
+*.sqlite3
+
+# Ignore model files or datasets (if used)
+models/
+*.h5
+*.pkl
+
+# Ignore cache files
+__pycache__/
+.cache/
